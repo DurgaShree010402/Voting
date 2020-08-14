@@ -1,0 +1,29 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{  
+	int age;
+	cout<<"                     ^*^*^*^*^*^* WELCOME TO VOTING PANNEL *^*^*^*^*^*^"<<endl;
+	cout<<"\n";
+	cout<<"                            It is your right to vote go for it"<<endl;
+	cout<<"\n";
+	cout<<"Enter your AGE :";
+	cin>>age;
+	
+	if(age>=18)
+	{
+		cout<<"You are elegible for voting "<<endl;
+		cout<<"Go with your choice"<<endl;
+	}
+	else
+	{
+		cout<<"You are not eligible for voting"<<endl;
+		cout<<"Try out next time when you turn out 18"<<endl;
+	}
+	cout<<"\n";
+	cout<<"                    ______________________Thank You________________________"<<endl;
+	
+	return 0;
+}
